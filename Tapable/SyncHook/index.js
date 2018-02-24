@@ -19,6 +19,8 @@ class Webpack {
     this.hooks.arch.call('jw');
   }
 }
+
+
 let w = new Webpack();
 w.tap();
 w.start();
