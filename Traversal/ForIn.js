@@ -6,11 +6,12 @@ var obj = {
     c: 3
 }
 
-
-for (var key in arr){
-    console.log(key,arr[key])
+for (var key in arr) {
+    console.log(key, arr[key])
 }
-console.log('----------')
-for (var key in obj){
-    console.log(key,obj[key])
+
+console.log('----------');
+
+for (var key in obj) {
+    console.log(key, obj[key])
 }
