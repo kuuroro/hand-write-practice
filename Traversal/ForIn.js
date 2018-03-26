@@ -7,10 +7,10 @@ var obj = {
 }
 
 
-for (var item of arr){
-    console.log(item)
+for (var key in arr){
+    console.log(key,arr[key])
 }
 console.log('----------')
-for (var item in obj){
-    console.log(item)
+for (var key in obj){
+    console.log(key,obj[key])
 }
