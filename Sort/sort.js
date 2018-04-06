@@ -33,7 +33,6 @@ function quickSort(arr, left, right) {
 }
 
 
-
 function partition(arr, left, right) {     //分区操作
     var pivot = left,                      //设定基准值（pivot）
         index = pivot + 1;
