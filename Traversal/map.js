@@ -5,7 +5,7 @@ var obj = {
     b: 2,
     c: 3
 }
-// 不改变原数组，返回型数组
+// 不改变原数组，返回新数组
 var result1 = arr.map(function(item,index){
 
    return item+1
